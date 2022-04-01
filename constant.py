@@ -5,8 +5,8 @@ SERVER_KEY = os.environ['SERVER_KEY']
 
 
 # LOGIN_API = 'https://app.bupt.edu.cn/uc/wap/login/check'
-# LOGIN_API = 'https://auth.bupt.edu.cn/authserver/login'
-LOGIN_API = 'https://app.bupt.edu.cn/ncov/wap/default/index'
+LOGIN_API = 'https://auth.bupt.edu.cn/authserver/login'
+# LOGIN_API = 'https://app.bupt.edu.cn/ncov/wap/default/index'
 GET_API = 'https://app.bupt.edu.cn/ncov/wap/default/index'
 REPORT_API = 'https://app.bupt.edu.cn/ncov/wap/default/save'
 
@@ -68,7 +68,7 @@ TIMEOUT_SECOND = 25
 
 class HEADERS:
     # REFERER_LOGIN_API = 'https://app.bupt.edu.cn/uc/wap/login'
-    REFERER_LOGIN_API = 'https://app.bupt.edu.cn/ncov/wap/default/index'
+    REFERER_LOGIN_API = 'https://auth.bupt.edu.cn/authserver/login'
     REFERER_POST_API = 'https://app.bupt.edu.cn/ncov/wap/default/index'
     ORIGIN_BUPTAPP = 'https://app.bupt.edu.cn'
 
